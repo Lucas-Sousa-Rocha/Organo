@@ -1,0 +1,26 @@
+.banner-rodape {
+  position: relative; /* referência para o ícone */
+}
+
+.banner-rodape img {
+  width: 100%;
+  display: block;
+}
+
+.teste img {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 99px;    /* sobe para cima do banner */
+  left: 500px;    /* posição horizontal */
+  border-radius: 50%;
+  background: white;
+  padding: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s, background 0.3s;
+  cursor: pointer;
+}
+
+.teste img:hover {
+  transform: scale(1.1);
+}
